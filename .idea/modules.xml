@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Pro-web.iml" filepath="$PROJECT_DIR$/Pro-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro-fruit1.0-jdbc/pro-fruit1.0-jdbc.iml" filepath="$PROJECT_DIR$/pro-fruit1.0-jdbc/pro-fruit1.0-jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro01-jdbc/pro01-jdbc.iml" filepath="$PROJECT_DIR$/pro01-jdbc/pro01-jdbc.iml" />
+    </modules>
+  </component>
+</project>
