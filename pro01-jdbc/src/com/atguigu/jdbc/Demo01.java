@@ -13,5 +13,6 @@ public class Demo01 {
         Connection connection= DriverManager.getConnection(url,user,pwd);
 
         System.out.println("connection="+connection);
+
     }
 }
