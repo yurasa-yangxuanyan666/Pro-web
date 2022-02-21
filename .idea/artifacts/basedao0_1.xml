@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="basedao0.1">
+    <output-path>$PROJECT_DIR$/out/artifacts/basedao0_1</output-path>
+    <root id="archive" name="basedao0.1.jar">
+      <element id="directory" name="com">
+        <element id="directory" name="atguigu">
+          <element id="directory" name="fruit">
+            <element id="directory" name="dao">
+              <element id="directory" name="base">
+                <element id="file-copy" path="$PROJECT_DIR$/out/production/pro05-fruit1.3-jdbc/com/atguigu/fruit/dao/base/BaseDAO.class" />
+              </element>
+            </element>
+          </element>
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
