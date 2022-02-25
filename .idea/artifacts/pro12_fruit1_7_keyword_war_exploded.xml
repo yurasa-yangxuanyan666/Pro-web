@@ -1,11 +1,10 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="pro09-fruit1.4-thymeleaf:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/pro09_fruit1_4_thymeleaf_war_exploded</output-path>
+  <artifact type="exploded-war" name="pro12-fruit1.7-keyword:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/pro12_fruit1_7_keyword_war_exploded</output-path>
     <root id="root">
-      <element id="javaee-facet-resources" facet="pro09-fruit1.4-thymeleaf/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="pro09-fruit1.4-thymeleaf" />
+          <element id="module-output" name="pro12-fruit1.7-keyword" />
         </element>
         <element id="directory" name="lib">
           <element id="file-copy" path="$PROJECT_DIR$/../../../../Program Files/Apache Software Foundation/Tomcat 9.0/lib/el-api.jar" />
@@ -49,8 +48,12 @@
           <element id="file-copy" path="$PROJECT_DIR$/lib_thymeleaf/unbescape-1.1.6.RELEASE.jar" />
           <element id="file-copy" path="$PROJECT_DIR$/lib_thymeleaf/attoparser-2.0.5.RELEASE.jar" />
           <element id="file-copy" path="$PROJECT_DIR$/lib_thymeleaf/thymeleaf-3.0.12.RELEASE.jar" />
+          <element id="library" level="project" name="thymeleaf_lib" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../Program Files/Apache Software Foundation/Tomcat 9.0/bin/bootstrap.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../Program Files/Apache Software Foundation/Tomcat 9.0/bin/tomcat-juli.jar" />
         </element>
       </element>
+      <element id="javaee-facet-resources" facet="pro12-fruit1.7-keyword/web/Web" />
     </root>
   </artifact>
 </component>
