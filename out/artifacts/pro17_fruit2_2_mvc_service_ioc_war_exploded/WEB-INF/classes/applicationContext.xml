@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans>
+    <bean id="fruit" class="src.com.atguigu.fruit.controllers.FruitController">
+        <property name="fruitService" ref="fruitService"/>
+    </bean>
+    <bean id="fruitService" class="src.com.atguigu.fruit.service.impl.FruitServiceimpl">
+        <property name="fruitDAO" ref="fruitDAO"/>
+
+    </bean>
+    <bean id="fruitDAO" class="src.com.atguigu.fruit.dao.impl.FruitDAOImpl"/>
+</beans>

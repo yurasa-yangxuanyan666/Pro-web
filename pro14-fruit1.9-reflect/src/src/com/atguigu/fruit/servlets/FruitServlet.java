@@ -12,6 +12,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 import java.util.List;
 
 
@@ -28,25 +30,22 @@ public class FruitServlet extends ViewBaseServlet {
             operate="index";
         }
 
-        switch (operate){
-            case "index":
-                index(req,resp);
-                break;
-            case "add":
-                add(req,resp);
-                break;
-            case "del":
-                del(req,resp);
-                break;
-            case "edit":
-                edit(req,resp);
-                break;
-            case "update":
-                update(req,resp);
-                break;
-            default:
-                throw new RuntimeException("operate值非法");
+        //获取当前类中的所以方法
+        Method[] methods=this.getClass().getDeclaredMethods();
+        for (Method method:methods
+             ) {
+            //获取方法名称
+            String methodName= method.getName();
+            if (operate.equals(methodName)){
+                try {
+                    method.invoke(this,req,resp);
+                    return;
+                }catch (IllegalAccessException | InvocationTargetException e){
+                    e.printStackTrace();
+                }
+            }
         }
+        throw new RuntimeException("operate值非法");
     }
 
     private void index(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

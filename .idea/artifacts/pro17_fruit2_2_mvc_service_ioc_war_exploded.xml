@@ -1,0 +1,62 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="pro17-fruit2.2-mvc-service-ioc:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/pro17_fruit2_2_mvc_service_ioc_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="pro17-fruit2.2-mvc-service-ioc" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../Program Files/Apache Software Foundation/Tomcat 9.0/lib/el-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../Program Files/Apache Software Foundation/Tomcat 9.0/lib/jasper.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../Program Files/Apache Software Foundation/Tomcat 9.0/lib/jsp-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../Program Files/Apache Software Foundation/Tomcat 9.0/lib/catalina.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../Program Files/Apache Software Foundation/Tomcat 9.0/lib/ecj-4.20.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../Program Files/Apache Software Foundation/Tomcat 9.0/lib/jasper-el.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../Program Files/Apache Software Foundation/Tomcat 9.0/lib/jaspic-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../Program Files/Apache Software Foundation/Tomcat 9.0/lib/tomcat-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../Program Files/Apache Software Foundation/Tomcat 9.0/lib/tomcat-jni.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../Program Files/Apache Software Foundation/Tomcat 9.0/lib/catalina-ha.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../Program Files/Apache Software Foundation/Tomcat 9.0/lib/servlet-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../Program Files/Apache Software Foundation/Tomcat 9.0/lib/tomcat-dbcp.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../Program Files/Apache Software Foundation/Tomcat 9.0/lib/tomcat-jdbc.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../Program Files/Apache Software Foundation/Tomcat 9.0/lib/tomcat-util.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../Program Files/Apache Software Foundation/Tomcat 9.0/lib/catalina-ant.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../Program Files/Apache Software Foundation/Tomcat 9.0/lib/catalina-ssi.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../Program Files/Apache Software Foundation/Tomcat 9.0/lib/tomcat-coyote.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../Program Files/Apache Software Foundation/Tomcat 9.0/lib/websocket-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../Program Files/Apache Software Foundation/Tomcat 9.0/lib/tomcat-i18n-cs.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../Program Files/Apache Software Foundation/Tomcat 9.0/lib/tomcat-i18n-de.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../Program Files/Apache Software Foundation/Tomcat 9.0/lib/tomcat-i18n-es.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../Program Files/Apache Software Foundation/Tomcat 9.0/lib/tomcat-i18n-fr.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../Program Files/Apache Software Foundation/Tomcat 9.0/lib/tomcat-i18n-ja.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../Program Files/Apache Software Foundation/Tomcat 9.0/lib/tomcat-i18n-ko.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../Program Files/Apache Software Foundation/Tomcat 9.0/lib/tomcat-i18n-ru.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../Program Files/Apache Software Foundation/Tomcat 9.0/lib/annotations-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../Program Files/Apache Software Foundation/Tomcat 9.0/lib/catalina-tribes.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../Program Files/Apache Software Foundation/Tomcat 9.0/lib/tomcat-util-scan.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../Program Files/Apache Software Foundation/Tomcat 9.0/lib/tomcat-websocket.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../Program Files/Apache Software Foundation/Tomcat 9.0/lib/tomcat-i18n-pt-BR.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../Program Files/Apache Software Foundation/Tomcat 9.0/lib/tomcat-i18n-zh-CN.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../Program Files/Apache Software Foundation/Tomcat 9.0/lib/catalina-storeconfig.jar" />
+          <element id="library" level="application" name="lib (6)" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib_thymeleaf/ognl-3.1.26.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib_thymeleaf/log4j-1.2.15.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib_thymeleaf/slf4j-api-1.7.25.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib_thymeleaf/javassist-3.20.0-GA.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib_thymeleaf/slf4j-log4j12-1.7.25.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib_thymeleaf/unbescape-1.1.6.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib_thymeleaf/attoparser-2.0.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib_thymeleaf/thymeleaf-3.0.12.RELEASE.jar" />
+          <element id="library" level="project" name="thymeleaf_lib" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../Program Files/Apache Software Foundation/Tomcat 9.0/bin/bootstrap.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../Program Files/Apache Software Foundation/Tomcat 9.0/bin/tomcat-juli.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/druid-1.1.10.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/thymeleaf-3.0.12.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/mysql-connector-java-5.1.45-bin.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="pro17-fruit2.2-mvc-service-ioc/web/Web" />
+    </root>
+  </artifact>
+</component>
